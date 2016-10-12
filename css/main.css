@@ -1,0 +1,224 @@
+*{
+  box-sizing: border-box;
+  font-size: 100%;
+  text-shadow: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a,p{
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizelegibility;
+  -moz-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern=1";
+  -ms-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+}
+
+img{
+  width: 100%;
+}
+
+/*header css*/
+header{
+	width: 100%;
+	height: 65px;
+	background-color: #343350;
+	position: absolute;
+  overflow:hidden;
+}
+.mobile-header{
+  height: 20px;
+
+}
+
+.header-logo{
+  height: 45px;
+	text-align: center;
+  width: 88px;
+  margin: 0 auto;
+}
+
+/*main-menu*/
+
+.main-menu{
+  width: 100%;
+  height: 100%;
+  padding: 65px 0 50px 0;
+  position: absolute;
+}
+
+.row{
+  width: 100%;
+  height: 33.33%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.col-1-1{
+  width: 50%;
+  height:100%;
+  float:left;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/dogboarding.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.col-1-2{
+  width: 50%;
+  height:100%;
+  float:left;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/homesitting.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.col-2-1{
+  width: 50%;
+  height:100%;
+  float:left;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/dogboarding.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.col-2-2{
+  width: 50%;
+  height:100%;
+  float:left;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/homesitting.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.col-3-1{
+  width: 50%;
+  height:100%;
+  float:left;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/dogboarding.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.col-3-2{
+  width: 50%;
+  height:100%;
+  float:left;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/homesitting.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.main-img{
+  width: 100%;
+  float: left;
+}
+
+.middletext{
+    padding-top: calc((100vh - 115px)/6 - 29px);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 12px;
+}
+
+.middletext span{
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+}
+
+.main-line{
+    width: 42px;
+    height: 4px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 4%;
+}
+
+.main-rebook{
+    background-image: url("../img/rebook.png");
+    position: absolute;
+    width: 42px;
+    height: 4px;
+    top: 20%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+/*toolbar-menu*/
+
+.toolbar-menu {
+  position: fixed;
+  bottom: 0px;
+  background-color: #343350;
+  width: 100%;
+  height: 50px;
+}
+
+.toolbar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.toolbar-menu ul li {
+  padding-top: 2%;
+  cursor: auto;
+  float: left;
+  position: relative;
+  width: 25%;
+  text-align: center;
+}
+
+.menu-icon{
+  width: 24px;
+
+
+}
+
+.toolbar-menu ul li p{
+  font-size: 10px;
+  color:#fff;
+  font-weight: 400;
+}
+
+#yellow{
+  color: #F3CB73;
+}
